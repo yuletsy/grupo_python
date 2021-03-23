@@ -11,18 +11,22 @@ funcion input():
         ser asignado en una variable
 
 """
+
 def main():
 
-    mensaje = "ingrese el monto: "
-    nombre = int(input("Escriba su nombre: " + mensaje))
-    print(type(nombre))
+    num1 = int(input("ingrese el primer numero:"))
+    num2 = int(input("ingrese el segundo numero:"))
+    print(num1 + num2)
+
+main()
+'''
+    #mensaje = "ingrese el monto: "
+    #nombre = int(input("Escriba su nombre: " + mensaje))
+    #print(type(nombre))
 
     # variable = int("123")
     # print(type(variable))
 
     #var = bool("true")
     #print(type(var))
-
-
-
-main()
+'''
