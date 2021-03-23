@@ -18,7 +18,7 @@ def main():
     mayusculas = nombre.upper()
     print(mayusculas)
 
-    concatenar = "Mi nombre es " + mayusculas + " y mi nombre tiene " + repr(longitud) +" de longitud "
+    concatenar = "Mi nombre es " + mayusculas + " - " + repr(longitud)
     print(concatenar)
 
 main()
