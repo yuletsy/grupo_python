@@ -15,10 +15,10 @@ def main():
     print(longitud)
 
 
-    mayusculas = nombre
-    print(mayusculas.upper())
+    mayusculas = nombre.upper()
+    print(mayusculas)
 
-    concatenar = "Mi nombre es " + mayusculas.upper() + " y mi nombre tiene " + repr(longitud) +" de longitud "
+    concatenar = "Mi nombre es " + mayusculas + " y mi nombre tiene " + repr(longitud) +" de longitud "
     print(concatenar)
 
 main()
